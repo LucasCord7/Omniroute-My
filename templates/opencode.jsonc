@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "https://opencode.ai/config.json",
+
+  "compaction": {
+    "auto": true,
+    "prune": true,
+    "reserved": 20000
+  },
+  "plugin": [
+    "~/.config/opencode/plugins/omniroute"
+  ]
+}
