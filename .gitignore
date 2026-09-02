@@ -1,0 +1,8 @@
+node_modules/
+*.log
+*.tmp
+*.exe
+.env
+.omniroute/
+*.sqlite
+*.sqlite-journal

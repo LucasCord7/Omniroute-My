@@ -1,0 +1,15 @@
+{
+    "version":  "1.0.0",
+    "name":  "omniroute-gateway",
+    "description":  "OmniRoute Gateway com inicializador interativo e plugin otimizado para OpenCode",
+    "scripts":  {
+                    "reset-password":  "node node_modules/omniroute/bin/reset-password.mjs",
+                    "setup-opencode":  "node scripts/setup-opencode.mjs",
+                    "start":  "omniroute serve"
+                },
+    "type":  "module",
+    "dependencies":  {
+                         "omniroute":  "^3.8.50"
+                     },
+    "main":  "index.js"
+}
